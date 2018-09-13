@@ -1,0 +1,9 @@
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\bin\Debug\netstandard2.0\Library_Circle.deps.json
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\bin\Debug\netstandard2.0\Library_Circle.dll
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\bin\Debug\netstandard2.0\Library_Circle.pdb
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\obj\Debug\netstandard2.0\Library_Circle.csprojAssemblyReference.cache
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\obj\Debug\netstandard2.0\Library_Circle.csproj.CoreCompileInputs.cache
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\obj\Debug\netstandard2.0\Library_Circle.AssemblyInfoInputs.cache
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\obj\Debug\netstandard2.0\Library_Circle.AssemblyInfo.cs
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\obj\Debug\netstandard2.0\Library_Circle.dll
+C:\Users\admin-jm\Documents\ITT\Estructura de Datos\ITT_EstructuraDatos\Ejercicio-1\Ej_01\Library_Circle\obj\Debug\netstandard2.0\Library_Circle.pdb
