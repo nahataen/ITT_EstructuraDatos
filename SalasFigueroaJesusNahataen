@@ -1,0 +1,100 @@
+package ejercicio2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner leer= new Scanner(System.in);
+
+		
+		 int cantidadCl;//variable cantidad de clases 
+         String Nmateria;// variable nombre de la materia
+         int selec;
+         double cal;//vaiable para calificacion
+        System.out.println("ingresa la cantidad de clases");//solicita la cantidad de clases
+         cantidadCl = leer.nextInt();//las captura en la variable cantidadCL
+       
+         
+         String [] nombreClase= new String[cantidadCl];//se crea un vector y se le asigna la cantidad capturada en la variable cantidadCL
+         int[] cantidadalumnos = new int[cantidadCl];//cantidad alumnos depende de cuantas clases haya si hay dos 50 alumnos en una posicion y 40 en otra por ejemplo por eso se utiliza de nuevo la cantidadCL
+         double[] calificacion   ;//se crea un vector calificacion para almacenar las calificaciones de los alumnos
+
+         for (int i = 0; i < nombreClase.length; i++)//se crea un ciclo que si i es menor a la cantidad de clases en el arreglo sigue continuando
+         {
+             //solicita i veces el nombre de la materia
+             System.out.println("ingresa el nombre de la clase "+(i+1));
+             Nmateria = leer.next();//captura el nombre de la materia i veces
+             nombreClase[i] = Nmateria;//asigna el nombre de la materia en la posision i
+            
+             System.out.println("ingrese la cantidad de alumnos de la clase " + nombreClase[i]);//solicita la cantidad de almnos de la materia que este en la posicion i
+             cantidadalumnos[i] = leer.nextInt();// los almacena en el arreglo cantidad de alumnos  en la pocicion i
+
+             calificacion = new double[cantidadalumnos[i]];//se manda a llamar el arreglo calificacion y se le asigna la cantidad de alumnos que tiene la posicion en [i] 
+             for (int j = 0; j < calificacion.length; j++)
+             {
+                 System.out.println("ingresa la calificacion del alumno " + (j + 1));
+                 cal = leer.nextDouble();
+                 calificacion[j] = cal;
+
+
+             }
+
+         
+
+        
+
+
+
+         }
+         
+         //switch case
+         
+         System.out.println("1.- ver clases que llevas 2.-calificaciones 3.-salir"); //solicita que ingrese una opcion
+         int key= leer.nextInt();//la captura
+         switch (key) {//se abre el switch
+		case 1://caso 1 
+			
+			 for (int i = 0; i < nombreClase.length; i++)//se crea un ciclo for e imprime lo que tiene el arreglo nombres 
+             {
+                System.out.println("las clases que llevas son: " + nombreClase[i]);
+
+             }
+			break;// para despues de la ejecucion
+      
+		case 2://caso 2 pedira ingresar la materia de la que solicitas ver las calificaciones 
+            System.out.println("Seleccione la materia que  para ver las calificaciones");
+			 for (int r = 0; r < nombreClase.length; r++)//se abre un ciclo for
+             {
+
+     
+                 System.out.println((r + 1) + " " + nombreClase[r]);// imrpimiendo las clases existentes
+                   
+                 
+
+
+             }
+			 
+			 selec=leer.nextInt();// captura la opcion dependiendo de la opcion elegida
+			 for (int i = 0; i < nombreClase.length; i++) {// ciclo for  continua mientras i no pase de lo que contiene el arreglo de las clases existentes
+				 if(i+1==selec) {//si la seleccion es igual a la posicion de i+1 
+				System.out.println("has escogido "+nombreClase[i]);	 //imprimira la materia que has seleccionad
+				System.out.println(cantidadalumnos[i]);// y la cantidad de alumnos que tiene
+				
+					
+				}
+			
+						 
+				 
+			}
+			
+			break;// para el proceso
+		default:
+    //salir del programa en default
+			break;
+		}
+				
+				
+		 }		     
+      
+	}
